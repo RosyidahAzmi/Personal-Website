@@ -1,0 +1,55 @@
+body
+{
+    background-image: url('images/cover.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+table, th
+{
+    text-align: center;
+}
+th
+{
+    padding: 30px;
+}
+th:hover
+{
+    background-color: indianred;
+}
+
+table, th, tr, a 
+  {
+    color: black;
+    text-decoration: none;
+  }
+  .contact-table
+  {
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 15px;
+    cursor: default;
+  }
+  .contact-table td
+  {
+    padding: 20px;
+    line-height: 20px;
+  }
+  .contact-table td:nth-of-type(even)
+  {
+    background-color: darksalmon;
+    text-align: left;
+  }
+.formbox
+{
+  display: flexbox;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audio 
+{
+  text-align: center;
+}
